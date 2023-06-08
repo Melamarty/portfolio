@@ -1,0 +1,7 @@
+:root {
+    --p-color:rgb(37, 62, 109) ;
+    --s-color:rgb(72, 126, 251) ;
+    --transition: all 0.5s ease;
+    --transform: scale(1.04) ;
+    --bg-color: #282c34 ;
+}

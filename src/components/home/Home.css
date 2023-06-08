@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Poppins:wght@300;400;500;600&family=Rubik:ital,wght@0,400;1,300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.lighthome {
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+}
+.lighthome .txt {
+    color: var(--p-color);
+    font-size: 18px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin: 70px 150px;
+}
+.lighthome .txt span {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--p-color);
+}
+.lighthome .txt p {
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--s-color);
+}
+.lighthome .txt .accounts {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 40px;
+}
+.lighthome .txt .accounts a {
+    color: var(--p-color);
+    transition: ease 0.5s;
+}
+.lighthome .txt .accounts a:hover {
+    color: var(--s-color);
+    transform: scale(1.06);
+}
+.lighthome .txt .contactme {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.lighthome .txt .contactme button {
+    height: 45px;
+    width: 160px;
+    border: none;
+    background-color: var(--p-color);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.lighthome .txt .contactme button:hover {
+    transform: var(--transform);
+    background-color: var(--s-color);
+}
+.lighthome .txt .contactme button .ic {
+    margin-left: 10px;
+}
+.lighthome .img img{
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    margin-right: 200px;
+}
+
+@media screen and (max-width:1400px) {
+    .lighthome .txt {
+        margin: 0 20px;
+    }
+    .lighthome .img img {
+        width: 500px;
+        height: 500px;
+        margin-right: 90px;
+    }
+}

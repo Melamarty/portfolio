@@ -1,0 +1,28 @@
+.light-contact {
+    padding: 100px 300px;
+}
+.light-contact .txt {
+    margin-bottom: 50px;
+}
+.light-contact .txt span {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--s-color);
+}
+.light-contact .email , .linkdin {
+    height: 80px;
+    font-size: 25px;
+}
+.light-contact .email span , .light-contact .linkdin span {
+    font-size: 25px;
+}
+.light-contact  a {
+    text-decoration: none;
+    color: var(--s-color);
+    margin-left: 10px;
+}
+@media  screen and (max-width:1000px) {
+    .light-contact {
+        padding: 100px 60px;
+    }
+}

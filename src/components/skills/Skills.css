@@ -1,0 +1,53 @@
+.skills {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    padding: 20px 0;
+}
+.skills .skill {
+    width: 50%;
+    height: 90vh;
+    text-align: center;
+}
+.skills .skill .header {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--p-color);
+}
+.skills .skill .content {
+    margin: 0 50px;
+}
+.skills .skill .content .skl {
+    display: flex;
+    height: 100px;
+    gap: 3rem;
+    margin: 50px 0;
+    padding: 10px 5px;
+    width: 100%;
+    border-bottom: 1px solid var(--s-color);
+    transition: var(--transition);
+    border-radius: 5px;
+}
+.skills .skill .content .skl:hover {
+    background-color: azure;
+    transform: var(--transform);
+    border: 1px solid var(--s-color);
+}
+.skills .skill .content img {
+    width: 100px;
+}
+.skills .skill .content p {
+    font-size: 22px;
+    margin-top: 40px;
+    color: var(--p-color);
+}
+
+@media  only screen and (max-width: 1200px) {
+    .skills {
+        display: block;
+    }
+    .skills .skill {
+        width: 100%;
+        display: block;
+    }
+}

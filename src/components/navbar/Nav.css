@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Poppins:wght@300;400;500;600&family=Rubik:ital,wght@0,400;1,300&display=swap');
+
+.light-nav {
+    height: 80px;
+    width: 100%;
+}
+.nav .links {
+    margin: 0 10px 0 40%;
+    position: relative;
+    top: 20px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.light-nav .links .link a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Oxygen', sans-serif;
+}
+.light-nav .links .link a:hover {
+    color: var(--s-color);
+}
+.light-nav .links .switch-mode {
+    font-size: 25px;
+    cursor: pointer;
+}
+.light-nav .links .hide {
+    display: none;
+}
+.active {
+    color: var(--s-color);
+}
+
+@media  only screen and (max-width:1100px) {
+    .nav .links {
+        margin-left: 30%;
+        width: 60%;
+    }
+    
+}

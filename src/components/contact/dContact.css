@@ -1,0 +1,32 @@
+.dark-contact {
+    padding: 100px 300px;
+    background-color: #282c34;
+    height: 100vh;
+}
+.dark-contact .txt {
+    margin-bottom: 50px;
+}
+.dark-contact .txt span {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--s-color);
+}
+.dark-contact .email , .dark-contact .linkdin {
+    height: 80px;
+    font-size: 25px;
+    color: #fff;
+}
+.dark-contact .email span , .dark-contact .linkdin span {
+    font-size: 25px;
+    color: #fff;
+}
+.dark-contact .email a, .linkdin a {
+    text-decoration: none;
+    color: var(--s-color);
+    margin-left: 10px;
+}
+@media  screen and (max-width:1000px) {
+    .dark-contact {
+        padding: 100px 60px;
+    }
+}

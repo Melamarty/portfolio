@@ -1,0 +1,91 @@
+.dark-about {
+    background-color: var(--bg-color);
+    height: 100vh;
+    width: 100%;
+    padding: 30px 0;
+}
+.dark-about .info {
+    display: flex;
+}
+.dark-about .header {
+    width: 100%;
+    text-align: center;
+}
+.dark-about .header span {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--s-color);
+}
+.dark-about .header p {
+    font-size: 22px;
+    color: #c4c4c4;
+}
+.dark-about .info .img {
+    background-color: rgb(131, 150, 232);
+    text-align: center;
+    border-radius: 50% 50% 0 0;
+    margin-left: 30px;
+    height: 600px;
+}
+.dark-about .info {
+    width: 100%;
+    text-align: center;
+}
+.dark-about .info img {
+    width: 500px;
+    position: relative ;
+    bottom: 65px;
+    text-align: center;
+
+}
+.dark-about .info .cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: var(--p-color);
+    width: 270px;
+    height: 50px;
+    padding-top: 4px ;
+    transition: var(--transition);
+    border-radius: 5px;
+}
+.dark-about .info .pict-cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dark-about .info .cv:hover {
+    background-color: var(--s-color);
+    transform: var(--transform);
+}
+.dark-about .info a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.dark-about .info .about {
+    position: relative;
+    margin: 60px 200px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dark-about .info  .about p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: #fff;
+}
+@media screen and (max-width:1500px) {
+    .dark-about .info {
+        flex-direction: column;
+        text-align: center;
+    }
+    .dark-about .info .img {
+        width: 700px;
+    }
+}

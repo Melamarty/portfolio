@@ -1,0 +1,56 @@
+.dark-projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282c34;
+}
+.dark-projects .proj {
+    margin-top: 20px;
+    height: 720px;
+    width: 1200px;
+    border: 1px solid var(--s-color);
+    border-radius: 10px;
+}
+.dark-projects .proj img {
+    margin: 10px 20px;
+    width: 80%;
+    height: 600px ;
+    margin-left: 100px;
+}
+.dark-projects .proj .info {
+    margin-left: 38px;
+}
+.dark-projects .proj .info span {
+    font-size: 23px;
+    color: var(--s-color);
+}
+.dark-projects .proj .info p {
+    font-size: 18px;
+    color: #aaa;
+}
+.dark-projects .proj .slider-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--s-color);
+    gap: 2rem;
+}
+.dark-projects .proj .slider-icons .icon-left , .icon-right {
+    cursor: pointer;
+    transition: var(--transition);
+}
+.dark-projects .proj .slider-icons .icon-left:hover , .icon-right:hover {
+    transform: scale(1.2);
+}
+@media screen and (max-width:1200px) {
+    .dark-projects .proj {
+        width: 900px;
+    }
+}
+@media screen and (max-width:950px) {
+    .dark-projects .proj {
+        width: 500px;
+    }
+}

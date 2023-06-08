@@ -1,0 +1,85 @@
+
+.darkhome {
+    background-color: var(--bg-color);
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+}
+.darkhome .txt {
+    color: white;
+    margin: 70px 150px;
+    font-size: 18px;
+    word-spacing: 5px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.darkhome .txt p {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(72, 126, 251);
+}
+.darkhome .txt span {
+    font-weight: 600;
+    font-size: 40px;
+}
+.darkhome .txt .accounts {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 40px;
+}
+.darkhome .txt .accounts a {
+    color: #fff;
+    transition: ease 0.5s;
+}
+.darkhome .txt .accounts a:hover {
+    color: var(--s-color);
+    transform: scale(1.06);
+}
+.darkhome .txt .contactme {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.darkhome .txt .contactme button {
+    height: 45px;
+    width: 160px;
+    border: none;
+    background-color: #fff;
+    color: rgb(37, 62, 109);
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.darkhome .txt .contactme button:hover {
+    transform: var(--transform);
+    background-color: var(--s-color);
+}
+.darkhome .txt .contactme button .ic {
+    margin-left: 10px;
+}
+.darkhome .img img{
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    margin-right: 200px;
+}
+
+
+
+/* Media queries */
+@media screen and (max-width:1400px) {
+    .darkhome .txt {
+        margin: 0 20px;
+    }
+    .darkhome .img img {
+        width: 500px;
+        height: 500px;
+        margin-right: 90px;
+    }
+}

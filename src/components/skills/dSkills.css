@@ -1,0 +1,54 @@
+.dark-skills {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #282c34;
+    padding: 20px 0;
+}
+.dark-skills .skill {
+    width: 50%;
+    height: 90vh;
+    text-align: center;
+}
+.dark-skills .skill .header {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.dark-skills .skill .content {
+    margin: 0 50px;
+}
+.dark-skills .skill .content .skl {
+    display: flex;
+    gap: 3rem;
+    height: 100px;
+    margin: 50px 0;
+    padding: 10px 5px;
+    width: 100%;
+    border-bottom: 1px solid var(--s-color);
+    transition: var(--transition);
+    border-radius: 5px;
+}
+.dark-skills .skill .content .skl:hover {
+    background-color: #464a53;
+    transform: var(--transform);
+    border: 1px solid var(--s-color);
+}
+.dark-skills .skill .content img {
+    width: 100px;
+}
+.dark-skills .skill .content p {
+    font-size: 22px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+@media  only screen and (max-width: 1200px) {
+    .dark-skills {
+        display: block;
+    }
+    .dark-skills .skill {
+        width: 100%;
+        display: block;
+    }
+}

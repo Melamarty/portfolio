@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Poppins:wght@300;400;500;600&family=Rubik:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.dark-nav {
+    height: 80px;
+    width: 100%;
+    background-color: #282c34;
+}
+.dark-nav .links .link a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Oxygen', sans-serif;
+    color: #fff;
+    transition: var(--transition);
+}
+.dark-nav .links .link a:hover {
+    color: var(--s-color);
+}
+
+.dark-nav .links .switch-mode {
+    font-size: 25px;
+    cursor: pointer;
+    color: #fff;
+}
+.dark-nav .links .hide {
+    display: none;
+}
+.active {
+    color: var(--s-color);
+}
