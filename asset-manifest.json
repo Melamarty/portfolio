@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/simo/static/css/main.85f2263a.css",
+    "main.js": "/simo/static/js/main.fe41efce.js",
+    "static/js/787.1ed0c42c.chunk.js": "/simo/static/js/787.1ed0c42c.chunk.js",
+    "static/media/menu-r.png": "/simo/static/media/menu-r.0a2dc19e62f36b97385d.png",
+    "static/media/home_r.png": "/simo/static/media/home_r.6957ff789a935eca9953.png",
+    "static/media/food-r.png": "/simo/static/media/food-r.5b56793e33e68deab4ac.png",
+    "static/media/img.jpg": "/simo/static/media/img.033d5389c7fcc5db3063.jpg",
+    "static/media/cart.png": "/simo/static/media/cart.26928a644483a85cbc44.png",
+    "static/media/intro.png": "/simo/static/media/intro.e44047ef05fbb0c54407.png",
+    "static/media/Me.png": "/simo/static/media/Me.27954ffaeb237e502a37.png",
+    "static/media/login-r.png": "/simo/static/media/login-r.0a0c4c685c983214e6bb.png",
+    "static/media/register-r.png": "/simo/static/media/register-r.bf0fc1f84c69af7df791.png",
+    "static/media/react.png": "/simo/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/mysqll.png": "/simo/static/media/mysqll.bdbd1eb709e4c13258d2.png",
+    "static/media/nodejs.png": "/simo/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/php.png": "/simo/static/media/php.c67d24b47808dc6611ed.png",
+    "static/media/html-5.png": "/simo/static/media/html-5.b2db3a7f6897f0a6e75c.png",
+    "static/media/css-3.png": "/simo/static/media/css-3.4a6549b8c2b4cda8bb88.png",
+    "static/media/js.png": "/simo/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/slick.svg": "/simo/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/simo/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/simo/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/simo/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/simo/index.html",
+    "main.85f2263a.css.map": "/simo/static/css/main.85f2263a.css.map",
+    "main.fe41efce.js.map": "/simo/static/js/main.fe41efce.js.map",
+    "787.1ed0c42c.chunk.js.map": "/simo/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85f2263a.css",
+    "static/js/main.fe41efce.js"
+  ]
+}
